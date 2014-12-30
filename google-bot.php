@@ -5,6 +5,8 @@ function googleBot($url)
 	$header = array();
 	$header[] = 'Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5'; 
 	$header[] = 'Cache-Control: max-age=0'; 
+	$header[] = 'Content-Type: text/html; charset=utf-8'; 
+	$header[] = 'Transfer-Encoding: chunked'; 
 	$header[] = 'Connection: keep-alive'; 
 	$header[] = 'Keep-Alive: 300'; 
 	$header[] = 'Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7'; 
